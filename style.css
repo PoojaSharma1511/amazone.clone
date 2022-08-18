@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  nav {
+    background-color: #11304c;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+    width: 80%;
+    justify-content: space-between;
+  }
+  
+  .user-links {
+    display: flex;
+    list-style: none;
+    width: 22%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  #logo {
+    height: 30px;
+  }
+  
+  .nav-section-one {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+  }
+  
+  .nav-links a{
+      text-decoration: none;
+      color: #fff;
+  }
+  
+  .trial-btn{
+      background-color: #00A0D6;
+      height: 40px;
+      width: 120px;
+      border: none;
+      color: #fff;
+      border-radius: 3px;
+  }
+  
+  .bi{
+      color: #fff;
+      font-size: 20px;
+  }
+  .content{
+    height: 80vh;
+    background-image: url(MLP.jpg);
+    background-position: center;
+    background-size: cover;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.data1{
+    font-size:20px;
+    padding-bottom: 15px;
+    font-size :35px;
+    font-weight:2%;
+
+}
+.data2{
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+}
+.but1{
+    padding: 15px 25px 15px 25px;
+    font-size: large;
+    background-color: #0f79af;
+    border: none;
+    border-image: stretch ;    
+
+}
+.data3{
+  font-size: 15px;
+  background-position: center;
+  margin: 15px;
+}
+.content1{
+  height: 70vh;
+  background-image: url(MLP1.jpg);
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+.data4{
+  font-size: 30px;
+  padding-bottom: 20px;
+  font-size:35px ;
+  font-weight: 2%;
+
+}
+.but2{
+  padding: 16px;
+  font-size: large;
+  background-color: #00A0D6;
+
+}
+.card1{
+  justify-content: center;
+  flex-direction: column;
+  background-position: center;
+  padding-left: 70px;
+  height: 100vh;
+
+
+}
+.data5{
+  padding: 10px;
+  margin: 5px;
+  font-size:20px;
+}
+.head1{
+  margin: 10px;
+  padding: 5px;
+  font-weight: 200;
+  justify-content: center;
+  
+
+}
+.para1{
+  margin: 5px;
+  padding-left: 5px;
+
+}
+.content3{
+  margin: 20px;
+justify-content:center;
+align-items: center;
+display:flex;
+height: 60%;
+}
+.box1{
+  height: 50%;
+  width: 55%;
+  justify-content: center;
+  font-size:large;
+}
+.box2{
+  height: 55vh;
+    width: 45%;
+    display:grid;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    grid-template-rows:repeat(3,1fr) ;
+grid-template-columns:repeat(3,1fr) ;
+}
+.content4{
+height:60vh;
+  background-image: url(MLP2.jpg);
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  display: flex;
+  justify-content: end;
+  background-size:cover ;
+  align-items: center;
+  font-size: large;
+  /* padding:2%; */ 
+} 
+.data6{
+  font-size: 20px;
+  padding-bottom:30px;
+  font-weight:3%;
+  
+
+}
+.data7{
+  font-size:19px;
+  padding: 3%;
+
+}
+ .collect3{
+  width: 40%;
+  background-position: center;
+  background-size: center;
+}
+.but3{
+  padding: 16px;
+  font-size: large;
+  background-color: #00A0D6;
+
+
+}
+.div{
+ border: solid blue 5px;
+}
+
+ .content5{ 
+  height:60vh;
+  background-image: url(MLP3.jpg);
+  background-position: center;
+  background-size: cover;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.collect4{
+  width: 50%;
+  font-size:5px;
+  padding: 20px;
+  align-items: center;
+
+}
+.new{
+  font-size: 10px;
+
+}
+.but4{
+  padding: 16px;
+  font-size: large;
+  background-color: #00A0D6;
+
+}
+.last{
+  width: 100%;
+  height:10vh;
+  background-color:black ;
+
+}
+.last img{
+  margin-left:700px;
+  font-size:90px;
+}
+.data8{
+  color: #00A0D6;
+  margin-left:550px;
+
+}
+.data9{
+  color: aliceblue;
+  margin-left: 550px;
+}
+.last2{
+  flex-direction: row;
+}
+@media only screen and(max-width:468px){
+  .content{
+    width: 100%;
+    display: none;
+    flex-direction: column-reverse;
+  }
+  
+}
+
+
+
+
+
+
